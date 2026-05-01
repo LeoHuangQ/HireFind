@@ -1,0 +1,71 @@
+```json
+{
+  "match_score": 52,
+  "breakdown": {
+    "skills": [
+      {
+        "name": "React",
+        "score": 90
+      },
+      {
+        "name": "Node.js",
+        "score": 90
+      },
+      {
+        "name": "GraphQL",
+        "score": 85
+      },
+      {
+        "name": "Java",
+        "score": 60
+      },
+      {
+        "name": "AWS",
+        "score": 75
+      },
+      {
+        "name": "Full-stack Development",
+        "score": 85
+      },
+      {
+        "name": "Python",
+        "score": 50
+      },
+      {
+        "name": "RESTful APIs",
+        "score": 0
+      },
+      {
+        "name": "Microservices Architecture",
+        "score": 0
+      },
+      {
+        "name": "System Design & Scalability",
+        "score": 0
+      }
+    ],
+    "experience": 40
+  },
+  "highlights": [
+    "✓ Proficient in all primary frontend technologies (React, Node.js, GraphQL)",
+    "✓ Full-stack development experience across backend and frontend",
+    "✓ AWS cloud experience demonstrated",
+    "✓ Java programming knowledge present",
+    "✓ Modern web technology stack alignment"
+  ],
+  "missing_skills": [
+    "✗ Experience gap: 3 years vs. required 5+ years (40% below requirement)",
+    "✗ Weak Java proficiency - critical for backend services role",
+    "✗ No mention of RESTful API design/implementation experience",
+    "✗ No evidence of microservices architecture experience",
+    "✗ No mention of system design or scalable backend systems architecture",
+    "✗ No demonstration of production-grade API design",
+    "✗ No mention of system reliability, performance, or observability tools",
+    "✗ No formal degree mentioned (Computer Science or equivalent)",
+    "✗ Limited evidence of end-to-end system ownership",
+    "✗ No mention of on-call/operational excellence experience"
+  ]
+}
+```
+
+**Summary:** This candidate has **moderate alignment** with the role but falls short of key requirements. While they excel in frontend technologies and have relevant full-stack experience, they lack the **seniority** (3 vs. 5+ years) and **backend depth** (particularly Java and microservices architecture) needed for this senior full-stack engineer position. The resume is also underdeveloped—it needs more detail on production projects, system scale, and architectural accomplishments.

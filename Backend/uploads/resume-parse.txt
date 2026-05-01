@@ -1,0 +1,41 @@
+```json
+{
+  "skills": [
+    {
+      "name": "React",
+      "score": 8
+    },
+    {
+      "name": "Node.js",
+      "score": 8
+    },
+    {
+      "name": "Python",
+      "score": 7
+    },
+    {
+      "name": "AWS",
+      "score": 7
+    },
+    {
+      "name": "JavaScript",
+      "score": 8
+    },
+    {
+      "name": "Java",
+      "score": 7
+    },
+    {
+      "name": "GraphQL",
+      "score": 7
+    }
+  ],
+  "experience": 3,
+  "highlights": [
+    "Full Stack Developer",
+    "Frontend Experience",
+    "Backend Experience",
+    "Cloud Services (AWS)"
+  ]
+}
+```

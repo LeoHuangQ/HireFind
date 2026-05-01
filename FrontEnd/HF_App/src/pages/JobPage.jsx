@@ -1,0 +1,131 @@
+import { useState } from "react";
+import {
+  Container,
+  TextField,
+  Button,
+  Box,
+  Paper,
+  Typography,
+  CircularProgress,
+  Alert,
+} from "@mui/material";
+import uploadJob from "../api/jobApi.js";
+
+function JobPage() {
+  const [job, setJob] = useState("");
+  const [jobScore, setJobScore] = useState("");
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState("");
+
+  const jobUpdateHandler = (e) => {
+    setJob(e.target.value);
+  };
+
+  const clickJobHandler = async () => {
+    if (job && job.trim() !== "") {
+      setLoading(true);
+      setError("");
+      try {
+        const result = await uploadJob(job);
+        setJobScore(result);
+      } catch (err) {
+        setError("Failed to compare with job description. Please try again.");
+        console.error(err);
+      } finally {
+        setLoading(false);
+      }
+    } else {
+      setError("Please paste the job description before comparing.");
+    }
+  };
+
+  const clearHandler = () => {
+    setJob("");
+    setJobScore("");
+    setError("");
+  };
+
+  return (
+    <Container maxWidth="md" sx={{ py: 4 }}>
+      <Typography variant="h4" component="h1" gutterBottom sx={{ mb: 4 }}>
+        Job Matching
+      </Typography>
+
+      <Box sx={{ display: "grid", gap: 3 }}>
+        {/* Job Description Input Section */}
+        <Paper elevation={3} sx={{ p: 3 }}>
+          <Typography variant="h6" gutterBottom>
+            Job Description
+          </Typography>
+          <TextField
+            fullWidth
+            multiline
+            rows={10}
+            placeholder="Paste the job description here..."
+            value={job}
+            onChange={jobUpdateHandler}
+            variant="outlined"
+            disabled={loading}
+            sx={{ mb: 2 }}
+          />
+          <Box sx={{ display: "flex", gap: 2 }}>
+            <Button
+              variant="contained"
+              color="primary"
+              onClick={clickJobHandler}
+              disabled={loading}
+              sx={{ minWidth: "150px" }}
+            >
+              {loading ? <CircularProgress size={24} /> : "Compare"}
+            </Button>
+            <Button
+              variant="outlined"
+              color="secondary"
+              onClick={clearHandler}
+              disabled={loading}
+            >
+              Clear
+            </Button>
+          </Box>
+        </Paper>
+
+        {/* Error Message */}
+        {error && (
+          <Alert severity="error" onClose={() => setError("")}>
+            {error}
+          </Alert>
+        )}
+
+        {/* Matching Score Section */}
+        {jobScore && (
+          <Paper elevation={3} sx={{ p: 3, backgroundColor: "#f5f5f5" }}>
+            <Typography variant="h6" gutterBottom>
+              Matching Score
+            </Typography>
+            <TextField
+              fullWidth
+              multiline
+              rows={10}
+              value={
+                typeof jobScore === "object"
+                  ? JSON.stringify(jobScore, null, 2)
+                  : jobScore
+              }
+              variant="outlined"
+              InputProps={{
+                readOnly: true,
+              }}
+              sx={{
+                "& .MuiOutlinedInput-root": {
+                  backgroundColor: "white",
+                },
+              }}
+            />
+          </Paper>
+        )}
+      </Box>
+    </Container>
+  );
+}
+
+export default JobPage;
