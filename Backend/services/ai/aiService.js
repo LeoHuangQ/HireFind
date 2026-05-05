@@ -46,6 +46,29 @@ export async function runAgentToMatch({job, resume}){
     return await callClaude(messages);
 }
 
+export async function runAgentToGenNew({job, resume}){
+    const messages = [
+        {
+            role: "user",
+            // content: `Task: ${task}\n Input: ${input}`
+            content: `
+                        Compare and analysis the resume and job requirement to update the resume to make them are matched
+                        Job position details:
+                        ${job}
+                        Resume details:
+                        ${resume}
+                        Return:
+                        {
+                        "resume": ["string"],
+                        "highlights": ["string"],
+                        "add_skill": ["string"]
+                        }
+                        `
+        }
+    ]
+    return await callClaude(messages);
+}
+
 async function callClaudeAgent(id, message){
     if(id == "parse_resume"){
         return await callClaude(message);

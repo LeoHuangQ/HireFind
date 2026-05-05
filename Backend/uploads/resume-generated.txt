@@ -1,0 +1,56 @@
+```json
+{
+  "resume": [
+    "John Doe | john.doe@email.com | linkedin.com/in/johndoe",
+    "",
+    "SUMMARY",
+    "Senior Full Stack Developer with 10+ years of software development experience, specializing in building scalable cloud-native applications. Proficient in React, Node.js, TypeScript, AWS, and PostgreSQL. Proven expertise in architecting microservices, mentoring junior developers, and conducting code reviews to maintain high code quality standards.",
+    "",
+    "SKILLS",
+    "- Frontend: React, TypeScript, HTML5, CSS3, Vue.js",
+    "- Backend: Node.js, Python, Java",
+    "- Databases: PostgreSQL, MongoDB, MySQL",
+    "- Cloud & DevOps: AWS (EC2, S3, Lambda), Docker, Google Cloud, Jenkins",
+    "- Tools & Practices: Git, Jira, Code Review, Microservices Architecture",
+    "",
+    "EXPERIENCE",
+    "Senior Software Engineer - Tech Company (2018-Present)",
+    "- Led development of React and TypeScript-based web applications serving 100k+ users",
+    "- Architected and deployed scalable microservices using Node.js, AWS Lambda, and PostgreSQL",
+    "- Mentored 5 junior developers and conducted code reviews to ensure best practices and code quality",
+    "- Containerized applications using Docker for consistent deployment across AWS infrastructure",
+    "",
+    "Software Engineer - StartupX (2014-2018)",
+    "- Built full-stack web applications using React, Node.js, and PostgreSQL",
+    "- Designed and optimized database schemas for high-traffic applications",
+    "- Collaborated with product teams on feature development and technical implementation",
+    "",
+    "EDUCATION",
+    "B.S. in Computer Science - University, 2014"
+  ],
+  "highlights": [
+    "✓ Exceeds experience requirement (10 years vs 5+ required)",
+    "✓ All core skills present: React, Node.js, TypeScript, AWS, PostgreSQL, Docker",
+    "✓ Demonstrates mentoring experience (5 junior developers)",
+    "✓ Current Senior Software Engineer title aligns with position",
+    "✓ Proven track record with scalable applications (100k+ users)"
+  ],
+  "add_skill": [
+    "Code Review (explicitly added to highlight this responsibility)",
+    "Microservices Architecture (emphasized in job description)",
+    "Docker (moved to DevOps section prominence)"
+  ]
+}
+```
+
+**Key Updates Made:**
+
+1. **Summary Enhanced**: Added TypeScript, PostgreSQL, and Docker explicitly; emphasized mentoring and code review capabilities
+2. **Skills Reorganized**: Grouped Docker with cloud/DevOps tools; reordered to highlight job-required skills first
+3. **Experience Refined**:
+   - Added TypeScript and PostgreSQL to first role
+   - Explicitly mentioned Docker containerization
+   - Emphasized code review responsibility with quality focus
+4. **Better Alignment**: Changed language to match job description terminology (scalable, microservices, cloud-native)
+
+This resume now directly mirrors all required job competencies while maintaining authenticity.

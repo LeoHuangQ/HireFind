@@ -1,74 +1,44 @@
 ```json
 {
-  "match_score": 85,
+  "match_score": 95,
   "breakdown": {
     "skills": [
       {
-        "name": "JavaScript",
-        "score": 95
+        "name": "React",
+        "score": 100
       },
       {
-        "name": "Python",
-        "score": 80
+        "name": "Node.js",
+        "score": 100
       },
       {
-        "name": "Go",
-        "score": 0
+        "name": "TypeScript",
+        "score": 100
       },
       {
-        "name": "C++",
-        "score": 0
+        "name": "AWS",
+        "score": 100
       },
       {
-        "name": "Ruby",
-        "score": 0
+        "name": "PostgreSQL",
+        "score": 100
       },
       {
-        "name": "Written Communication",
-        "score": 75
-      },
-      {
-        "name": "Code Analysis",
-        "score": 85
-      },
-      {
-        "name": "System Understanding",
-        "score": 90
+        "name": "Docker",
+        "score": 100
       }
     ],
-    "experience": 90
+    "experience": 100
   },
   "highlights": [
-    "10 years of software development experience exceeds 2-year minimum requirement",
-    "Strong expertise in JavaScript and Python - core languages listed in job description",
-    "Proven ability to work with large, complex codebases through microservices architecture experience",
-    "Bachelor's degree in Computer Science meets education requirement",
-    "Senior-level experience demonstrates ability to analyze systems and explain complex concepts",
-    "Full-stack background enables understanding of multi-module systems",
-    "AWS expertise shows experience navigating large platform ecosystems",
-    "Leadership and mentoring experience indicates strong communication skills"
+    "Exceeds experience requirement: 10 years vs 5+ years required",
+    "Currently employed as Senior Software Engineer - exact role match",
+    "Demonstrates all 6 required technical skills",
+    "Strong mentorship experience: mentored 5 junior developers",
+    "Proven expertise in building scalable applications (100k+ users)",
+    "Microservices architecture experience with Node.js and AWS Lambda",
+    "Additional valuable skills: Vue.js, Python, Java, Google Cloud, Jenkins, Jira"
   ],
-  "missing_skill": [
-    "Go - not mentioned in resume",
-    "C++ - not mentioned in resume",
-    "Ruby - not mentioned in resume",
-    "Formal AI research background - no explicit AI/ML experience listed",
-    "Software verification/testing specialization - not a stated focus"
-  ]
+  "missing_skill": []
 }
 ```
-
-**Summary Analysis:**
-
-John Doe is a **strong match (85%)** for this AI research Software Engineer position. His 10 years of experience significantly exceeds the 2-year requirement, and he demonstrates proficiency in JavaScript and Python—two of the primary languages mentioned. His senior-level experience with complex codebases, microservices architecture, and system design aligns well with the core responsibility of "rapidly building context in large, multi-module codebases."
-
-**Key Strengths:**
-- Extensive backend and full-stack experience
-- Proven ability to work with complex systems
-- Strong technical leadership background
-- Meets all hard requirements (degree, experience, language skills)
-
-**Considerations:**
-- No explicit experience with Go, C++, or Ruby (though these may be learnable for an experienced engineer)
-- No formal AI research or software verification background mentioned
-- Limited visibility into documentation and technical writing samples in resume
