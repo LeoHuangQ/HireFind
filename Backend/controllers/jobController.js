@@ -9,6 +9,10 @@ export const compResume = async (req, res) => {
   if(!job || job == ""){
     return res.status(404).json('No job detail');
   }
+  const jobInfoDesName = `job_info_des.txt`;
+  const jobInfoDesNamePath = path.join('uploads', jobInfoDesName);
+  await fs.writeFile(jobInfoDesNamePath, result, "utf-8");
+
   const fileName = `resume-original.txt`;
   const filePath = path.join('uploads', fileName);
   const resume = await fs.readFile(filePath, "utf-8");
@@ -35,6 +39,10 @@ export const generateNewResume = async (req, res) => {
   if(!job || job == ""){
     return res.status(404).json('No job detail');
   }
+  const jobInfoDesName = `job_info_des.txt`;
+  const jobInfoDesNamePath = path.join('uploads', jobInfoDesName);
+  await fs.writeFile(jobInfoDesNamePath, result, "utf-8");
+  
   const fileName = `resume-original.txt`;
   const filePath = path.join('uploads', fileName);
   const resume = await fs.readFile(filePath, "utf-8");
