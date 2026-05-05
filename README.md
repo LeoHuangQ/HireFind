@@ -5,8 +5,8 @@ It helps candidates improve their resumes and enables recruiters to efficiently 
 
 This project demonstrates end-to-end engineering capability across **frontend, backend, and AI integration**.
 
-<img width="650" height="667" alt="Screenshot 2026-05-01 at 12 57 56 PM" src="https://github.com/user-attachments/assets/43eeb4d9-0892-496b-9a74-737da32383d1" />
-<img width="650" height="682" alt="Screenshot 2026-05-01 at 12 58 14 PM" src="https://github.com/user-attachments/assets/18690c01-2c38-45a5-b487-edace97cc702" />
+<img width="450" height="540" alt="Screenshot 2026-05-01 at 12 57 56 PM" src="https://github.com/user-attachments/assets/43eeb4d9-0892-496b-9a74-737da32383d1" />
+<img width="450" height="540" alt="Screenshot 2026-05-01 at 12 58 14 PM" src="https://github.com/user-attachments/assets/18690c01-2c38-45a5-b487-edace97cc702" />
 
 ---
 
@@ -22,7 +22,8 @@ This project demonstrates end-to-end engineering capability across **frontend, b
   * Formatting & clarity
 * Provide actionable score and feedback for improvement  (**todo the UI interface**)
 
-<img width="650" height="682" alt="Screenshot 2026-05-01 at 1 06 04 PM" src="https://github.com/user-attachments/assets/bf823b09-7324-48b9-9924-5577c9d9ce8e" />
+<img width="369" height="540" alt="Screenshot 2026-05-04 at 11 08 52 PM" src="https://github.com/user-attachments/assets/babed065-f2ec-47cc-970a-2695bb7a0c1d" />
+
 
 ---
 
@@ -36,7 +37,8 @@ This project demonstrates end-to-end engineering capability across **frontend, b
   * Contextual relevance
 * Returns a match score + explanation (**todo the UI interface**)
 
-<img width="650" height="680" alt="Screenshot 2026-05-01 at 1 04 31 PM" src="https://github.com/user-attachments/assets/d0f9b7ac-5a36-4a92-915c-d908dd86d3e6" />
+<img width="369" height="539" alt="Screenshot 2026-05-04 at 11 08 21 PM" src="https://github.com/user-attachments/assets/506edaf3-3035-4b26-be65-8f533f9e801e" />
+
 ---
 
 ### 🛠 Resume Optimization  (todo the UI interface)
