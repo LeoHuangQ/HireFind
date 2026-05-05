@@ -10,6 +10,7 @@ import {
   Alert,
 } from "@mui/material";
 import uploadResume from "../api/resumeApi.js";
+import RadarChart from "../components/RadarChart.jsx";
 
 function ResumePage() {
   const [resume, setResume] = useState("");
@@ -98,30 +99,33 @@ function ResumePage() {
 
         {/* Resume Score Section */}
         {resumeScore && (
-          <Paper elevation={3} sx={{ p: 3, backgroundColor: "#f5f5f5" }}>
-            <Typography variant="h6" gutterBottom>
-              Resume Score
-            </Typography>
-            <TextField
-              fullWidth
-              multiline
-              rows={10}
-              value={
-                typeof resumeScore === "object"
-                  ? JSON.stringify(resumeScore, null, 2)
-                  : resumeScore
-              }
-              variant="outlined"
-              InputProps={{
-                readOnly: true,
-              }}
-              sx={{
-                "& .MuiOutlinedInput-root": {
-                  backgroundColor: "white",
-                },
-              }}
-            />
-          </Paper>
+          <>
+            <RadarChart scoreData={resumeScore} title="Resume Analysis Score" />
+            <Paper elevation={3} sx={{ p: 3, backgroundColor: "#f5f5f5" }}>
+              <Typography variant="h6" gutterBottom>
+                Raw Score Data
+              </Typography>
+              <TextField
+                fullWidth
+                multiline
+                rows={10}
+                value={
+                  typeof resumeScore === "object"
+                    ? JSON.stringify(resumeScore, null, 2)
+                    : resumeScore
+                }
+                variant="outlined"
+                InputProps={{
+                  readOnly: true,
+                }}
+                sx={{
+                  "& .MuiOutlinedInput-root": {
+                    backgroundColor: "white",
+                  },
+                }}
+              />
+            </Paper>
+          </>
         )}
       </Box>
     </Container>

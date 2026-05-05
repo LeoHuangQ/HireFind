@@ -1,41 +1,31 @@
 ```json
 {
   "skills": [
-    {
-      "name": "React",
-      "score": 8
-    },
-    {
-      "name": "Node.js",
-      "score": 8
-    },
-    {
-      "name": "Python",
-      "score": 7
-    },
-    {
-      "name": "AWS",
-      "score": 7
-    },
-    {
-      "name": "JavaScript",
-      "score": 8
-    },
-    {
-      "name": "Java",
-      "score": 7
-    },
-    {
-      "name": "GraphQL",
-      "score": 7
-    }
+    {"name": "React", "score": 9},
+    {"name": "Node.js", "score": 9},
+    {"name": "JavaScript", "score": 9},
+    {"name": "AWS", "score": 8},
+    {"name": "TypeScript", "score": 8},
+    {"name": "PostgreSQL", "score": 7},
+    {"name": "MongoDB", "score": 7},
+    {"name": "Python", "score": 7},
+    {"name": "Docker", "score": 7},
+    {"name": "Vue.js", "score": 6},
+    {"name": "Java", "score": 6},
+    {"name": "Google Cloud", "score": 6},
+    {"name": "Git", "score": 8},
+    {"name": "Jenkins", "score": 6},
+    {"name": "HTML5", "score": 8},
+    {"name": "CSS3", "score": 8}
   ],
-  "experience": 3,
+  "experience": 10,
   "highlights": [
-    "Full Stack Developer",
-    "Frontend Experience",
-    "Backend Experience",
-    "Cloud Services (AWS)"
+    "Led development of React-based web applications serving 100k+ users",
+    "Architected microservices using Node.js and AWS Lambda",
+    "Mentored 5 junior developers",
+    "10 years of full stack software development experience",
+    "Proven track record of building scalable web applications and leading development teams",
+    "B.S. in Computer Science from University"
   ]
 }
 ```

@@ -1,71 +1,74 @@
 ```json
 {
-  "match_score": 52,
+  "match_score": 85,
   "breakdown": {
     "skills": [
       {
-        "name": "React",
-        "score": 90
-      },
-      {
-        "name": "Node.js",
-        "score": 90
-      },
-      {
-        "name": "GraphQL",
-        "score": 85
-      },
-      {
-        "name": "Java",
-        "score": 60
-      },
-      {
-        "name": "AWS",
-        "score": 75
-      },
-      {
-        "name": "Full-stack Development",
-        "score": 85
+        "name": "JavaScript",
+        "score": 95
       },
       {
         "name": "Python",
-        "score": 50
+        "score": 80
       },
       {
-        "name": "RESTful APIs",
+        "name": "Go",
         "score": 0
       },
       {
-        "name": "Microservices Architecture",
+        "name": "C++",
         "score": 0
       },
       {
-        "name": "System Design & Scalability",
+        "name": "Ruby",
         "score": 0
+      },
+      {
+        "name": "Written Communication",
+        "score": 75
+      },
+      {
+        "name": "Code Analysis",
+        "score": 85
+      },
+      {
+        "name": "System Understanding",
+        "score": 90
       }
     ],
-    "experience": 40
+    "experience": 90
   },
   "highlights": [
-    "✓ Proficient in all primary frontend technologies (React, Node.js, GraphQL)",
-    "✓ Full-stack development experience across backend and frontend",
-    "✓ AWS cloud experience demonstrated",
-    "✓ Java programming knowledge present",
-    "✓ Modern web technology stack alignment"
+    "10 years of software development experience exceeds 2-year minimum requirement",
+    "Strong expertise in JavaScript and Python - core languages listed in job description",
+    "Proven ability to work with large, complex codebases through microservices architecture experience",
+    "Bachelor's degree in Computer Science meets education requirement",
+    "Senior-level experience demonstrates ability to analyze systems and explain complex concepts",
+    "Full-stack background enables understanding of multi-module systems",
+    "AWS expertise shows experience navigating large platform ecosystems",
+    "Leadership and mentoring experience indicates strong communication skills"
   ],
-  "missing_skills": [
-    "✗ Experience gap: 3 years vs. required 5+ years (40% below requirement)",
-    "✗ Weak Java proficiency - critical for backend services role",
-    "✗ No mention of RESTful API design/implementation experience",
-    "✗ No evidence of microservices architecture experience",
-    "✗ No mention of system design or scalable backend systems architecture",
-    "✗ No demonstration of production-grade API design",
-    "✗ No mention of system reliability, performance, or observability tools",
-    "✗ No formal degree mentioned (Computer Science or equivalent)",
-    "✗ Limited evidence of end-to-end system ownership",
-    "✗ No mention of on-call/operational excellence experience"
+  "missing_skill": [
+    "Go - not mentioned in resume",
+    "C++ - not mentioned in resume",
+    "Ruby - not mentioned in resume",
+    "Formal AI research background - no explicit AI/ML experience listed",
+    "Software verification/testing specialization - not a stated focus"
   ]
 }
 ```
 
-**Summary:** This candidate has **moderate alignment** with the role but falls short of key requirements. While they excel in frontend technologies and have relevant full-stack experience, they lack the **seniority** (3 vs. 5+ years) and **backend depth** (particularly Java and microservices architecture) needed for this senior full-stack engineer position. The resume is also underdeveloped—it needs more detail on production projects, system scale, and architectural accomplishments.
+**Summary Analysis:**
+
+John Doe is a **strong match (85%)** for this AI research Software Engineer position. His 10 years of experience significantly exceeds the 2-year requirement, and he demonstrates proficiency in JavaScript and Python—two of the primary languages mentioned. His senior-level experience with complex codebases, microservices architecture, and system design aligns well with the core responsibility of "rapidly building context in large, multi-module codebases."
+
+**Key Strengths:**
+- Extensive backend and full-stack experience
+- Proven ability to work with complex systems
+- Strong technical leadership background
+- Meets all hard requirements (degree, experience, language skills)
+
+**Considerations:**
+- No explicit experience with Go, C++, or Ruby (though these may be learnable for an experienced engineer)
+- No formal AI research or software verification background mentioned
+- Limited visibility into documentation and technical writing samples in resume

@@ -58,8 +58,8 @@ function Navigation() {
               variant="h6"
               component="div"
               sx={{ flexGrow: 1, fontWeight: "bold" }}
-            >
-              HireFind
+            ><ListItemButton to="/" >
+              HireFind</ListItemButton>
             </Typography>
 
             {/* Desktop Navigation */}

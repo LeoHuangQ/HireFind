@@ -10,6 +10,7 @@ import {
   Alert,
 } from "@mui/material";
 import uploadJob from "../api/jobApi.js";
+import RadarChart from "../components/RadarChart.jsx";
 
 function JobPage() {
   const [job, setJob] = useState("");
@@ -98,30 +99,33 @@ function JobPage() {
 
         {/* Matching Score Section */}
         {jobScore && (
-          <Paper elevation={3} sx={{ p: 3, backgroundColor: "#f5f5f5" }}>
-            <Typography variant="h6" gutterBottom>
-              Matching Score
-            </Typography>
-            <TextField
-              fullWidth
-              multiline
-              rows={10}
-              value={
-                typeof jobScore === "object"
-                  ? JSON.stringify(jobScore, null, 2)
-                  : jobScore
-              }
-              variant="outlined"
-              InputProps={{
-                readOnly: true,
-              }}
-              sx={{
-                "& .MuiOutlinedInput-root": {
-                  backgroundColor: "white",
-                },
-              }}
-            />
-          </Paper>
+          <>
+            <RadarChart scoreData={jobScore} title="Job Matching Score" />
+            <Paper elevation={3} sx={{ p: 3, backgroundColor: "#f5f5f5" }}>
+              <Typography variant="h6" gutterBottom>
+                Raw Score Data
+              </Typography>
+              <TextField
+                fullWidth
+                multiline
+                rows={10}
+                value={
+                  typeof jobScore === "object"
+                    ? JSON.stringify(jobScore, null, 2)
+                    : jobScore
+                }
+                variant="outlined"
+                InputProps={{
+                  readOnly: true,
+                }}
+                sx={{
+                  "& .MuiOutlinedInput-root": {
+                    backgroundColor: "white",
+                  },
+                }}
+              />
+            </Paper>
+          </>
         )}
       </Box>
     </Container>
