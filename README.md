@@ -41,11 +41,14 @@ This project demonstrates end-to-end engineering capability across **frontend, b
 
 ---
 
-### 🛠 Resume Optimization  (todo the UI interface)
+### 🛠 Resume Optimization  
 
 * Automatically rewrite and improve resumes
 * Tailor resumes for specific job postings
 * Enhance wording, keywords, and structure using AI
+
+<img width="606" height="556" alt="Screenshot 2026-05-05 at 12 14 33 AM" src="https://github.com/user-attachments/assets/71c4f09f-8e7b-44cc-8767-a345433a0b19" />
+
 
 ---
 
