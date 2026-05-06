@@ -1,44 +1,98 @@
 ```json
 {
-  "match_score": 95,
+  "match_score": 72,
   "breakdown": {
     "skills": [
       {
-        "name": "React",
-        "score": 100
+        "name": "Object-Oriented Programming",
+        "score": 85
       },
       {
-        "name": "Node.js",
-        "score": 100
+        "name": "JavaScript/TypeScript",
+        "score": 95
       },
       {
-        "name": "TypeScript",
-        "score": 100
+        "name": "Python",
+        "score": 70
       },
       {
-        "name": "AWS",
-        "score": 100
+        "name": "Java",
+        "score": 70
       },
       {
-        "name": "PostgreSQL",
-        "score": 100
+        "name": "React.js",
+        "score": 95
       },
       {
-        "name": "Docker",
-        "score": 100
+        "name": "Modern Web Frameworks",
+        "score": 90
+      },
+      {
+        "name": "Front-end State Management",
+        "score": 80
+      },
+      {
+        "name": "AWS Cloud Experience",
+        "score": 85
+      },
+      {
+        "name": "DevOps Tools (Git, CI/CD)",
+        "score": 80
+      },
+      {
+        "name": "Generative AI Tools",
+        "score": 0
+      },
+      {
+        "name": "AI/ML Integration & LLMs",
+        "score": 0
+      },
+      {
+        "name": "Enterprise Sales/Marketing Workflows",
+        "score": 0
+      },
+      {
+        "name": "Salesforce Development",
+        "score": 0
+      },
+      {
+        "name": "Apex & Lightning Web Components",
+        "score": 0
+      },
+      {
+        "name": "Agentforce & Einstein Copilot",
+        "score": 0
+      },
+      {
+        "name": "MLOps & ML Model Deployment",
+        "score": 0
       }
     ],
-    "experience": 100
+    "experience": 80
   },
   "highlights": [
-    "Exceeds experience requirement: 10 years vs 5+ years required",
-    "Currently employed as Senior Software Engineer - exact role match",
-    "Demonstrates all 6 required technical skills",
-    "Strong mentorship experience: mentored 5 junior developers",
-    "Proven expertise in building scalable applications (100k+ users)",
-    "Microservices architecture experience with Node.js and AWS Lambda",
-    "Additional valuable skills: Vue.js, Python, Java, Google Cloud, Jenkins, Jira"
+    "Exceeds minimum requirement with 10 years of software engineering experience (5+ required)",
+    "Strong expertise in JavaScript and React.js with proven track record at scale (100k+ users)",
+    "Solid AWS cloud experience with hands-on DevOps (Git, Jenkins, Docker, Lambda)",
+    "Demonstrated leadership and mentoring capabilities with junior developers",
+    "Full-stack capabilities with backend languages (Node.js, Python, Java)",
+    "Excellent problem-solving and architectural thinking (microservices design)"
   ],
-  "missing_skill": []
+  "missing_skills": [
+    "Generative AI productivity tools (GitHub Copilot, Cursor) - strongly preferred",
+    "AI/ML technology integration and LLM experience - core requirement",
+    "Enterprise-level AI applications in sales/marketing workflows",
+    "Salesforce platform development (critical bonus skill)",
+    "Apex programming and Lightning Web Components",
+    "Agentforce and Einstein Copilot experience",
+    "MLOps and machine learning model deployment",
+    "Advanced Salesforce certifications",
+    "Azure cloud experience (only AWS demonstrated)",
+    "No mention of AI/Automation project leadership"
+  ]
 }
 ```
+
+**Summary Analysis:**
+
+John Doe is a **strong candidate for core software engineering requirements** but has **significant gaps in AI/ML specialization**. He excels in traditional full-stack development, cloud infrastructure, and team leadership, but lacks the emerging AI/ML focus and Salesforce expertise that are central to this role's differentiation. To strengthen his candidacy, he should prioritize learning generative AI tools, gaining hands-on LLM/ML experience, and exploring Salesforce platform development.

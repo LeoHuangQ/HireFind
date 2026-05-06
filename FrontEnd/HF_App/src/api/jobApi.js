@@ -24,4 +24,24 @@ export const generateNewResume = async (job) => {
     return res.json();
 }
 
+export const getLastJobData = async () => {
+    const res = await fetch("http://localhost:3000/job/last-job", {
+        method: "GET",
+        headers: {
+            "Content-Type": "application/json"
+        }
+    });
+    return res.json();
+}
+
+export const getLastMatchingResult = async () => {
+    const res = await fetch("http://localhost:3000/job/last-matching", {
+        method: "GET",
+        headers: {
+            "Content-Type": "application/json"
+        }
+    });
+    return res.json();
+}
+
 export default uploadJob;

@@ -1,0 +1,33 @@
+What You’ll Need
+
+5+ years of focused software engineering experience in a corporate setting.
+
+Expert knowledge of object-oriented programming principles and 3+ years of hands-on experience with at least one major programming language such as JavaScript, Python, Java, or C#.
+
+Working knowledge of and practical experience with generative AI productivity tools for software development (e.g., GitHub Copilot, Cursor) strongly preferred.
+
+Deep working knowledge of modern web development frameworks (React.js, Next.js, or similar) and a solid understanding of front-end state management and performance optimization.
+
+Strong working experience with cloud environments (Azure or AWS) and professional-level proficiency with DevOps tools (Git, CI/CD pipelines).
+
+Demonstrated interest and practical experience in integrating AI and ML technologies, including LLMs, and applying them to enterprise-level sales or marketing workflows.
+
+Exceptional problem-solving, architectural thinking, and analytical skills, with a commitment to technical excellence.
+
+Excellent ability to communicate complex technical designs and collaborate effectively across fast-paced, cross-functional teams.
+
+Bonus Points For
+
+Hands-on experience with advanced Salesforce platform development, including complex Apex triggers, asynchronous processing, Governor limit mitigation, and state-of-the-art Lightning Web Components development.
+
+Proven experience extending and optimizing Agentforce and applying Einstein Copilot or similar AI-enabled Salesforce/CRM tools to solve complex business problems.
+
+Salesforce Platform Developer or multiple advanced certifications (e.g. PD 1 / PD 2, Admin, Agentforce Specialist, Data Cloud Consultant).
+
+Experience building and deploying machine learning models or deep familiarity with the MLOps lifecycle.
+
+Expertise in Salesforce DevOps methodologies, advanced CI/CD pipelines, and automated testing frameworks.
+
+Proven track record of leading the successful technical implementation of AI/Automation projects in a business-critical environment.
+
+Passion for teaching, mentoring, and contributing to the open-source or internal development community.

@@ -10,4 +10,25 @@ const uploadResume = async (file)=>{
 
     return res.json();
 }
+
+export const getLastResumeData = async () => {
+    const res = await fetch("http://localhost:3000/resume/last-resume", {
+        method: "GET",
+        headers: {
+            "Content-Type": "application/json"
+        }
+    });
+    return res.json();
+}
+
+export const getLastParseResult = async () => {
+    const res = await fetch("http://localhost:3000/resume/last-parse", {
+        method: "GET",
+        headers: {
+            "Content-Type": "application/json"
+        }
+    });
+    return res.json();
+}
+
 export default uploadResume;

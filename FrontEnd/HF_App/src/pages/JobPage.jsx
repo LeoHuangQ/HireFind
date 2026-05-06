@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import {
   Container,
   TextField,
@@ -9,7 +9,7 @@ import {
   CircularProgress,
   Alert,
 } from "@mui/material";
-import uploadJob, { generateNewResume } from "../api/jobApi.js";
+import uploadJob, { generateNewResume, getLastJobData, getLastMatchingResult } from "../api/jobApi.js";
 import RadarChart from "../components/RadarChart.jsx";
 
 function JobPage() {
@@ -18,6 +18,30 @@ function JobPage() {
   const [newResume, setNewResume] = useState("");
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
+
+  // Load last saved data on component mount
+  useEffect(() => {
+    const loadLastData = async () => {
+      try {
+        const [jobData, matchingResult] = await Promise.all([
+          getLastJobData(),
+          getLastMatchingResult()
+        ]);
+        
+        if (jobData && jobData.job) {
+          setJob(jobData.job);
+        }
+        
+        if (matchingResult && Object.keys(matchingResult).length > 0) {
+          setJobScore(matchingResult);
+        }
+      } catch (err) {
+        console.error("Error loading last data:", err);
+      }
+    };
+
+    loadLastData();
+  }, []);
 
   const jobUpdateHandler = (e) => {
     setJob(e.target.value);

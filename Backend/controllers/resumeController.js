@@ -27,3 +27,37 @@ export const parseResume = async (req, res) => {
   console.log("parse_resume result: ", result);
   res.json(result);
 };
+
+export const getLastResumeData = async (req, res) => {
+  try {
+    const resumeFileName = `resume-original.txt`;
+    const resumeFilePath = path.join('uploads', resumeFileName);
+    
+    try {
+      const resumeData = await fs.readFile(resumeFilePath, "utf-8");
+      res.json({ resume: resumeData });
+    } catch (err) {
+      res.json({ resume: "" });
+    }
+  } catch (err) {
+    console.error("Error reading last resume data:", err);
+    res.status(500).json({ error: "Failed to read last resume data" });
+  }
+};
+
+export const getLastParseResult = async (req, res) => {
+  try {
+    const resultFileName = `resume-parse.txt`;
+    const resultFilePath = path.join('uploads', resultFileName);
+    
+    try {
+      const parseResult = await fs.readFile(resultFilePath, "utf-8");
+      res.json(JSON.parse(parseResult));
+    } catch (err) {
+      res.json({});
+    }
+  } catch (err) {
+    console.error("Error reading last parse result:", err);
+    res.status(500).json({ error: "Failed to read last parse result" });
+  }
+};

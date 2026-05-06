@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import {
   Container,
   TextField,
@@ -9,7 +9,7 @@ import {
   CircularProgress,
   Alert,
 } from "@mui/material";
-import uploadResume from "../api/resumeApi.js";
+import uploadResume, { getLastResumeData, getLastParseResult } from "../api/resumeApi.js";
 import RadarChart from "../components/RadarChart.jsx";
 
 function ResumePage() {
@@ -17,6 +17,30 @@ function ResumePage() {
   const [resumeScore, setResumeScore] = useState("");
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
+
+  // Load last saved data on component mount
+  useEffect(() => {
+    const loadLastData = async () => {
+      try {
+        const [resumeData, parseResult] = await Promise.all([
+          getLastResumeData(),
+          getLastParseResult()
+        ]);
+        
+        if (resumeData && resumeData.resume) {
+          setResume(resumeData.resume);
+        }
+        
+        if (parseResult && Object.keys(parseResult).length > 0) {
+          setResumeScore(parseResult);
+        }
+      } catch (err) {
+        console.error("Error loading last data:", err);
+      }
+    };
+
+    loadLastData();
+  }, []);
 
   const resumeUpdateHandler = (e) => {
     setResume(e.target.value);
