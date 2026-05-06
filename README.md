@@ -37,7 +37,8 @@ This project demonstrates end-to-end engineering capability across **frontend, b
   * Contextual relevance
 * Returns a match score + explanation (**todo the UI interface**)
 
-<img width="369" height="539" alt="Screenshot 2026-05-04 at 11 08 21 PM" src="https://github.com/user-attachments/assets/506edaf3-3035-4b26-be65-8f533f9e801e" />
+<img width="368" height="550" alt="Screenshot 2026-05-06 at 12 22 07 AM" src="https://github.com/user-attachments/assets/ad74f2ca-477e-4b45-a38d-32602705be99" />
+
 
 ---
 
